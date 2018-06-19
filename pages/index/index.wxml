@@ -1,0 +1,17 @@
+<view class='header'>
+  <view class='header-item'>Gate.io</view>
+</view>
+<view class='tab'>
+  <view class='tab-nav'>
+    <view class='nav-item'>全部交易对</view>
+    <view class='nav-item'>市值</view>
+    <view class='nav-item'>价格</view>
+    <view class='nav-item'>涨幅</view>
+  </view>
+   <view class="li">
+    <view class='li-item'><view class='jiaoyi'>{{item.name}}</view><view class='dui'>{{item.curr_b}}</view><view class='jiaoyisuo'>Gate.io,量 ${{item.supply/100000000}}亿</view></view>
+    <view class='li-item'><view class='liang'>{{item.marketcap}}</view></view>
+    <view class='li-item'><view class='price'>${{item.irate}}</view><view class='price2'>{{item.rate}} USDT</view></view>
+    <view class='li-item'><view class='bi'>{{item.rate_percent}}</view></view>
+  </view> 
+</view>
