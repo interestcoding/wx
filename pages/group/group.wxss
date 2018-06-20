@@ -1,0 +1,23 @@
+/* pages/group/group.wxss */
+.top{
+  height: 30%;
+  width: 100%;
+  background:-webkit-linear-gradient(top,#30A9DE,#a5dff9);
+  color: white;
+  border-top: 1px solid #dedede;
+}
+.top-nav{height: 30px;line-height: 30px}
+.center-nav{height: 150px}
+.top-nav .nav-left,.top-nav .nav-center,.top-nav .nav-right{width: 33.33%;float: left;font-size: 14px;text-align: center}
+.center-nav .center-left,.center-nav .center-center{width: 33.33%;float: left;text-align: center;font-size: 24px}
+.text{font-size: 14px}
+.footer{
+  width: 100%;
+  height: 30px;
+  background-color: #fafafa;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position:fixed;
+  bottom: 0
+}

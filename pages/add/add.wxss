@@ -1,0 +1,19 @@
+/* pages/add/add.wxss */
+.add{height: 50px;
+border-bottom: 1px solid gray;
+font-size: 16px;
+text-align: center;
+line-height: 50px
+}
+.add text{
+  font-size: 14px;
+  color: #888
+}
+.search{
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  position: fixed;
+  top: 40%
+}

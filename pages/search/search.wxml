@@ -1,0 +1,9 @@
+<!--pages/search/search.wxml-->
+<view class="content">
+  <view class="search">
+  <form>
+    <input class="search-input" placeholder="搜索你想添加的币" auto-focus></input>
+    <button class="search-button" size='mini'>搜索</button>
+    </form>
+  </view>
+</view>

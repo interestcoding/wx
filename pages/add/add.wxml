@@ -1,0 +1,3 @@
+<!--pages/add/add.wxml-->
+<view class="add"><navigator  url="/pages/search/search">添加币种 <text>(最多可添加10只币种哦！)</text></navigator></view>
+<view class='search'>请搜索并添加币进你的组合</view>

@@ -1,0 +1,30 @@
+.all{height: 120px;width:90%;border-radius: 5px 40px 5px ;box-shadow: 0 0 10px #888888;margin: 20px auto;}
+.all .left{
+  width: 30%;
+  height: 100%;
+  background:-webkit-linear-gradient(top,red,#ff5f2e);
+  float: left;
+  text-align: left;
+  border-radius: 0 40px 0;
+  color: white
+}
+.all .right{
+  width: 60%;
+  height: 100%;
+  float: right;
+  font-size: 14px;
+}
+.clear{
+  clear: both
+}
+.left .left-top{
+  margin-top: 30%;
+  text-align: center;
+  line-height: 30px;
+}
+.left .left-bottom{
+  text-align: center
+}
+.all .right .price,.all .right .number,.all .right .mingci{
+  margin-top: 15px;
+}
