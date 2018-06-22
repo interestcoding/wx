@@ -68,3 +68,38 @@ color:#000000;
 background-color:#F8F8F8;
 
 }
+.about{
+  font-size: 12px;color: gray;
+  height: 25px;
+  line-height: 25px;
+  border-bottom: 1px solid #efefef;
+  padding: 0 5%;
+}
+.list{
+  height: 50px;
+  border-bottom: 1px solid #efefef;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 0 5%;
+}
+.name{font-size: 12px;
+  color: gray;
+  line-height: 12px
+}
+.left{
+  width: 80%;
+  float: left
+}
+.right{
+  width: 20%;
+  float: left;
+  margin: 10px 0
+}
+.right .text{
+  font-size: 12px;
+  background-color: #0080ff;
+  width: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 5px
+}

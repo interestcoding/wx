@@ -29,7 +29,6 @@ Page({
             }
             list.push({ "name": res.data.data[i].symbol, "price": res.data.data[i].rate, "shizhi": shizhi, "bi": res.data.data[i].rate_percent, "dui": res.data.data[i].curr_suffix, "dui": res.data.data[i].curr_suffix, "bi": res.data.data[i].rate_percent,"liang":liang})
           }
-          
           that.setData({ 
             list:list
           })

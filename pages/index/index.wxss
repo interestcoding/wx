@@ -69,6 +69,7 @@
   line-height: 23px;
   background-color: #c03546;
   color: white;
+  border-radius: 3px;
 }
 .bi_green{
   margin: 5px 5px;
@@ -77,6 +78,7 @@
   line-height: 23px;
   background-color: #008b00;
   color: white;
+  border-radius: 3px;
 }
 .li-item .liang{
   text-align: center;
