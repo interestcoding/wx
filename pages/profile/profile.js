@@ -13,6 +13,19 @@ Page({
     })
   },
   onLoad: function () {
+    var that = this;
     app.getUserInfo(userInfo => this.setData({ userInfo }))
+    wx.request({
+      url: 'http://127.0.0.1:5000/',
+      method: 'GET',
+      success: function (res) {
+        wx.hideLoading();
+        var data = res.data
+        console.log(data)
+        that.setData({
+          data: data
+        })
+      }
+    })
   }
 })

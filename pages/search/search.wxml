@@ -1,0 +1,14 @@
+<!--pages/search/search.wxml-->
+<view class="content">
+  <view class="search">
+  <form>
+    <input class="search-input" bindinput="onInput" onkeyup="this.value=this.value.toUpperCase()" placeholder="搜索你想添加的币" auto-focus></input>
+    <view>取消</view>
+    </form>
+  </view>
+</view>
+<view class='about'>相关币种</view>
+  <view class='list' wx:for="{{item}}" wx:for-item="item">
+   <view class='left'> <view class='name_cn'>{{item.name_cn}}</view><view class='name'>{{item.name}}</view></view>
+   <view class='right'> <view class='text'>加入组合</view></view>
+    </view>

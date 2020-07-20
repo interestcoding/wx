@@ -4,7 +4,10 @@
     "pages/activity_list/activity_list",
     "pages/logs/logs",
     "pages/profile/profile",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/group/group",
+    "pages/add/add",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",

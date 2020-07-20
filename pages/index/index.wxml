@@ -8,10 +8,10 @@
     <view class='nav-item'>价格</view>
     <view class='nav-item'>涨幅</view>
   </view>
-   <view class="li">
-    <view class='li-item'><view class='jiaoyi'>{{item.name}}</view><view class='dui'>{{item.curr_b}}</view><view class='jiaoyisuo'>Gate.io,量 ${{item.supply/100000000}}亿</view></view>
-    <view class='li-item'><view class='liang'>{{item.marketcap}}</view></view>
-    <view class='li-item'><view class='price'>${{item.irate}}</view><view class='price2'>{{item.rate}} USDT</view></view>
-    <view class='li-item'><view class='bi'>{{item.rate_percent}}</view></view>
+   <view class="li" wx:for="{{list}}" wx:for-item="item">
+    <view class='li-item'><view class='jiaoyi'>{{item.name}}</view><view class='dui'>{{item.dui}}</view><view class='jiaoyisuo'>Gate.io,量 {{item.liang}}万</view></view>
+    <view class='li-item'><view class='liang'>${{item.shizhi}}亿</view></view>
+    <view class='li-item'><view class='price'>${{item.price}}</view><view class='price2'>{{item.price}} USDT</view></view>
+    <view class='li-item'><view class="{{item.bi<0? 'bi':'bi_green'}}">{{item.bi}}</view></view>
   </view> 
 </view>

@@ -1,12 +1,14 @@
+<navigator url="/pages/add/add">
 <view class="all">
   <view class='left'>
     <view class='left-top'>-9.60%</view>
     <view class='left-bottom'>总收益</view>
   </view>
   <view class='right'>
-    <view class='price'>净资：90.39万</view>
-    <view class='number'>币种个数：5个</view>
-    <view class='mingci'>排行：6952</view>
+    <view class='price'>净资：100万</view>
+    <view class='number'>币种个数：0个</view>
+    <view class='mingci'>排行：--</view>
   </view>
   <view class='clear'></view>
 </view>
+</navigator>

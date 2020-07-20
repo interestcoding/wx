@@ -1,0 +1,16 @@
+<!--pages/group/group.wxml-->
+<view class='top'>
+  <view class='top-nav'>
+    <view class='nav-left'>总收益</view>
+    <view class='nav-center'>净值</view>
+    <view class='nav-right'>0人关注</view>
+  </view>
+  <view class='clear'></view>
+  <view class='center-nav'>
+    <view class='center-left'>-10.80<text class='text'>%</text></view>
+     <view class='center-center'>89.20<text class='text'>万</text></view>
+  </view>
+</view>
+<view class='footer'>
+  <text>调仓</text>
+  </view>
